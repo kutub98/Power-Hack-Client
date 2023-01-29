@@ -1,0 +1,10 @@
+footer,
+header {
+  align-items: center;
+  background: rgb(3 9 72);
+  box-shadow: rgb(255, 255, 255) 2.4px 2.4px 3.2px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.48);
+  color: white;
+
+}
