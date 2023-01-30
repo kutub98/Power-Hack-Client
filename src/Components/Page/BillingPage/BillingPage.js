@@ -1,7 +1,10 @@
 import React from "react";
 import Table from "./Table/Table";
 import "./BillingPage.css";
+
+
 const BillingPage = () => {
+   
   return (
     <div className="my-8 mx-auto">
       <div className="py-4 items-center">
@@ -59,6 +62,8 @@ const BillingPage = () => {
                 <label htmlFor="Mobile" className="block dark:text-gray-400">
                   Mobile Number
                 </label>
+                <div>
+                <select name="" id=""></select>
                 <input
                   required
                   type="number"
@@ -67,6 +72,7 @@ const BillingPage = () => {
                   placeholder="Mobile Number"
                   className="w-full px-4 py-3 rounded-md dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 focus:dark:border-violet-400"
                 />
+                </div>
               </div>
               <div className="space-y-1 text-sm">
                 <label htmlFor="Payable" className="block dark:text-gray-400">

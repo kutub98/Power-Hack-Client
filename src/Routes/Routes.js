@@ -6,6 +6,7 @@ import BillingPage from "../Components/Page/BillingPage/BillingPage";
 import Home from "../Components/Page/Home/Home";
 import Login from "../Components/Page/LoginPage/Login";
 import Register from "../Components/Page/Resgister/Register";
+import PrivateRoute from "../Components/PrivateRoute/PrivateRoute";
 
 const Routes = createBrowserRouter([
   { path: "", element: <Layout></Layout> },
@@ -16,7 +17,7 @@ const Routes = createBrowserRouter([
       { path: "home", element: <Home></Home> },
       { path: "login", element: <Login></Login> },
       { path: "register", element: <Register></Register> },
-      { path: "billingPage", element: <BillingPage></BillingPage> },
+      { path: "billingPage", element: <PrivateRoute><BillingPage></BillingPage></PrivateRoute> },
     ],
   },
 ]);
